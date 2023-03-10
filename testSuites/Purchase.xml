@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Suite" verbose="2">
-	
-	
-	  <listeners>
-    <listener class-name="testComponents.Listeners"/>
-  </listeners>
-	   
+<suite parallel = "tests" name="Suite">
+	<groups>
+		<run>
+			<include name="Purchase"></include>
+		</run>
+	</groups>
 	    <test thread-count="5" name="Base Tests" >
     <classes>
       <class name="com.rahulshettyacademy.www.Selenium.StandAloneTest"/>
@@ -18,8 +17,7 @@
     <classes>
       <class name="com.rahulshettyacademy.www.Selenium.Error_Validations"/>
     </classes>
+    
   </test> <!-- Test -->
-  
-
   
 </suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+[
+  {
+   
+      "email": "pass23@yopmail.com",
+      "password": "Sachin@123",
+      "product": "zara",
+      "country": "India"
+
+  },
+  {
+
+      "email": "dhoni1@yopmail.com",
+      "password": "Dhoni!12",
+      "product": "adidas",
+      "country": "Australia"
+
+  }
+]
